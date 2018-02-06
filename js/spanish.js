@@ -12,3 +12,5 @@ var translateText = (function (origTranslateText) {
 
 
 })(translateText);
+
+console.log(translateText);

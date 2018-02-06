@@ -9,22 +9,23 @@
 
 </head>
 <body>
+    <input id="text-to-translate" type="text">
+    <select name="language" id="language">
+        <option id="Spanish" value="Spanish">Spanish</option>
+        <option id="Italian" value="Italian">Italian</option>
+        <option id="Russian" value="Russian">Russian</option>
+        <option id="Norwegian" value="Norwegian">Norwegian</option>
+    </select>
+    <button id="btn-translate" type="submit">Translate!</button>
 
-    <form action="translate-language">
-        <input type="text">
-        <select name="language" id="language">
-            <option value="Spanish">Spanish</option>
-            <option value="Italian">Italian</option>
-            <option value="Russian">Russian</option>
-            <option value="Norwegian">Norwegian</option>
-        </select>
-        <button id="btn-translate" type="submit">Translate!</button>
-    </form>
 
-        <div id="translated-text"></div>
+    <div id="translated-text"></div>
     
 
     <script src="js/main.js"></script>
     <script src="js/italian.js"></script>
+    <script src="js/norwegian.js"></script>
+    <script src="js/russian.js"></script>
+    <script src="js/spanish.js"></script>
 </body>
 </html>

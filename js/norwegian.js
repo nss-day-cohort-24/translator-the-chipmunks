@@ -1,3 +1,5 @@
+"use strict";
+
 var translateText = (function(origTranslateText) {
 	var norwegianWords = {"merry": "god", "christmas": "jul", "and": "og", "happy": "lykkelig", "new": "ny", "year": "år"};
 
